@@ -11,3 +11,13 @@ class NormalizeTests(unittest.TestCase):
 
     def test_internal_whitespace(self):
         self.assertEqual(normalize(["a b", "C  d"]), ["a b", "C  d"])
+
+    def test_trims_leading_and_trailing_whitespace(self):
+        self.assertEqual(normalize(["  North ", "\twest\n"]), ["North", "west"])
+
+    def test_omits_blank_entries(self):
+        self.assertEqual(normalize(["", " ", "\t\n", " keep ", "  "]), ["keep"])
+        self.assertEqual(normalize([" ", ""]), [])
+
+    def test_preserves_order_duplicates_case_and_internal_whitespace(self):
+        self.assertEqual(normalize([" North ", "west", "North", " C  d ", "a b"]), ["North", "west", "North", "C  d", "a b"])
