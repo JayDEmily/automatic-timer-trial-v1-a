@@ -1,7 +1,7 @@
 name: Fixture CI
 on:
   push:
-    branches: [trial/gate-3]
+    branches: [diagnostic/gate3-ci-push]
     paths:
       - normalizer.py
       - tests/**
