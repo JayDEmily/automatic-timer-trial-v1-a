@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-A1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "c5a9a063411855eff36c49a5b69a7e7d037c0f3a",
+  "current_candidate_sha": "46ef47f1ce1994eebf934e1c076fcf8c90105ddd",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-blind-20261126, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue. Lane A is designated for native Continue. After exact candidate CI and publication of the separate eligible review handoff H, stop before claiming an intent or invoking a sender, and report H to the manager."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-A1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b0816d9dc88819184f6ddbb89be632a/project"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45816173362,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "2005f5e4a5d68752d76deb4abda8774ba33092ed",
   "bootstrap": {
@@ -33,9 +37,47 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "status": "PASS",
+      "candidate_sha": "46ef47f1ce1994eebf934e1c076fcf8c90105ddd",
+      "candidate_tree": "fb0e0dcccf084495e426b68707c20bb7cac8990c",
+      "run_id": 45816173362,
+      "run_attempt": 1,
+      "run_name": "Fixture CI",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-blind-20261126",
+      "run_status": "completed",
+      "run_conclusion": "success",
+      "job_id": 139896371258,
+      "job_name": "Test normalizer",
+      "job_status": "completed",
+      "job_conclusion": "success",
+      "checkout_step_conclusion": "success",
+      "verify_and_test_step_conclusion": "success",
+      "tested_sha": "46ef47f1ce1994eebf934e1c076fcf8c90105ddd",
+      "tested_tree": "fb0e0dcccf084495e426b68707c20bb7cac8990c",
+      "test_command": "python3 -B -m unittest discover -s tests -v",
+      "tests_run": 6,
+      "tests_passed": 6,
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-a/actions/runs/45816173362",
+      "job_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-a/actions/runs/45816173362/job/139896371258",
+      "actual_test_output": [
+        "TESTED_SHA=46ef47f1ce1994eebf934e1c076fcf8c90105ddd",
+        "TESTED_TREE=fb0e0dcccf084495e426b68707c20bb7cac8990c",
+        "test_empty (test_normalizer.NormalizeTests.test_empty) ... ok",
+        "test_internal_whitespace (test_normalizer.NormalizeTests.test_internal_whitespace) ... ok",
+        "test_omits_blank_entries (test_normalizer.NormalizeTests.test_omits_blank_entries) ... ok",
+        "test_order_duplicates_and_case (test_normalizer.NormalizeTests.test_order_duplicates_and_case) ... ok",
+        "test_strips_surrounding_whitespace (test_normalizer.NormalizeTests.test_strips_surrounding_whitespace) ... ok",
+        "test_trim_preserves_order_duplicates_case_and_internal_whitespace (test_normalizer.NormalizeTests.test_trim_preserves_order_duplicates_case_and_internal_whitespace) ... ok",
+        "Ran 6 tests in 0.000s",
+        "OK"
+      ],
+      "observed_utc": "2026-11-26T12:04:58.488089+00:00",
+      "log_warning": "actions/checkout@v4 Node.js 20 deprecation; job ran on Node.js 24 and succeeded."
+    }
   },
-  "note": "Owner-authorised direct native Start for the clean blind trial. An eligible reviewer handoff H is separate.",
+  "note": "Candidate CI verified for the exact C and tree. Independent review pending. Lane A designated native Continue: stop before claiming intent or invoking sender.",
   "project_name": "Project Test A R3",
   "project_id": "g-p-6b0816d9dc88819184f6ddbb89be632a"
 }
