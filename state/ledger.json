@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-A1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "7f322d69c88c75ee340ae4f2ae54b45e23367a23",
+  "current_candidate_sha": "eb37083c5f49c4f9c85d0922b7b4dde237e99127",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-hosted-editor-retry-20261127, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue. Record the real UTC engineering, Git, test and CI interval in the permitted evidence. Use existing approved tooling only and keep any exact permission stop or failed check at its actual checkpoint. This is the designated Continue lane. Observe the exact C push run and its original attempt while pending and again at its final state. After verified CI and separate eligible H, stop before claim or native sender and await native Continue on this original worker. In the separate reviewer commission use the exact authorised canonical Project landing from this bootstrap only after observing or verifying that route in this Project."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-A1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b09326a3c088191984c475ac3ca63ac/project"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45963833815,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
   "bootstrap": {
@@ -32,9 +36,53 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "status": "PASS",
+      "conclusion": "success",
+      "run_id": 45963833815,
+      "run_attempt": 1,
+      "workflow_id": 431328514,
+      "workflow": ".github/workflows/ci.yml",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-hosted-editor-retry-20261127",
+      "job_id": 140387674581,
+      "job_name": "Test normalizer",
+      "job_conclusion": "success",
+      "tested_sha": "eb37083c5f49c4f9c85d0922b7b4dde237e99127",
+      "tested_tree": "b1c51b1f5060b86a50fa5889f5a83a750c1ae4e7",
+      "tests_passed": 7,
+      "job_log_sha256": "35f1cdbb80fe4c4827dd81de96adb944cb82d3cf95c581aa0bbf003d0e4e560e",
+      "job_log_bytes": 14128,
+      "pending_observation": {
+        "status": "in_progress",
+        "observed_utc": "2026-11-27T08:12:04.250598+00:00"
+      },
+      "final_observation": {
+        "status": "completed",
+        "conclusion": "success",
+        "observed_utc": "2026-11-27T08:12:37.173888+00:00"
+      },
+      "run_created_utc": "2026-11-27T08:12:01Z",
+      "job_started_utc": "2026-11-27T08:12:03Z",
+      "job_completed_utc": "2026-11-27T08:12:06Z",
+      "log_verified_utc": "2026-11-27T08:12:39.622153+00:00",
+      "engineering_interval_utc": {
+        "start": "2026-11-27T08:00:08.829632+00:00",
+        "end": "2026-11-27T08:00:28.348141+00:00"
+      },
+      "candidate_commit_interval_utc": {
+        "start": "2026-11-27T08:11:27.447275+00:00",
+        "end": "2026-11-27T08:11:27.503208+00:00"
+      },
+      "candidate_push_interval_utc": {
+        "start": "2026-11-27T08:11:56.432104+00:00",
+        "end": "2026-11-27T08:11:59.059266+00:00"
+      },
+      "candidate_remote_readback_utc": "2026-11-27T08:11:59.598371+00:00",
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-a/actions/runs/45963833815"
+    }
   },
-  "note": "Owner-authorised direct Start for lane A of the fresh Gate 3 hosted editor retry cohort. Independent review follows a separate eligible handoff.",
+  "note": "Candidate-specific CI PASS recorded for the exact C and original attempt. The independent review commission uses the authorised Project landing from the direct bootstrap. This designated Continue lane stops at eligible H before any claim or native sender. No independent verdict has been issued.",
   "project_id": "g-p-6b09326a3c088191984c475ac3ca63ac",
   "project_name": "PCA Gate 3 Retry Lane A 20261127"
 }
